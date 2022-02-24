@@ -27,4 +27,4 @@ function toCamelCase(str){
     return str === '' ? str : str.split(str.includes('-') ? '-' : '_').map((word, i) => i === 0 ? word : word.charAt(0).toUpperCase() + word.slice(1)).join('');
 }
 
-module.exports = toCamelCase();
+module.exports = toCamelCase;
