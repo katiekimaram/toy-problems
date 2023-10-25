@@ -4,5 +4,5 @@
  * @return {number[]}
  */
 var filter = function(arr, fn) {
-    return arr.filter((n, i) => fn(n,i))
+    return arr.filter(fn)
 };
